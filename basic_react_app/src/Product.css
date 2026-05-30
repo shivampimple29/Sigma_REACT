@@ -1,0 +1,9 @@
+.Product{
+    background-color: aqua;
+    border: 2px solid #e0c367;
+    border-radius: 16px;
+    margin-bottom:24px ;
+    height: 10rem;
+    width: 18rem;
+    /* padding: 0 9px 0 9px; */
+}
