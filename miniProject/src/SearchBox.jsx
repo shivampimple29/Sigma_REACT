@@ -9,8 +9,8 @@ function SearchBox({ updateInfo }) {
   const [city, setCity] = useState("");
   const [error, setError] = useState(false);
 
-  const API_URL =import.meta.env.VITE_API_URL;
-  const API_KEY =import.meta.env.VITE_API_KEY;
+  const API_URL = import.meta.env.VITE_API_URL;
+  const API_KEY = import.meta.env.VITE_API_KEY;
 
   let getWeatherInfo = async () => {
     // eslint-disable-next-line no-useless-catch
